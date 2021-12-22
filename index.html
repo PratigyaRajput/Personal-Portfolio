@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="site-main-wraper">
+        <header>
+            <div class="container">
+                <div id="menu-bar">
+                    <div id="menu-hamberger" onclick="onClickMenu()">
+                        <div id="bar-1" class="bar"></div>
+                        <div id="bar-2" class="bar"></div>
+                        <div id="bar-3" class="bar"></div>
+                    </div>
+                    <ul class="nav-hamberger" id="nav-hamberger">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Srvices</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="menu-bg" id="menu-bg"></div>
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="images/prai logo 2.png" alt="">
+                         </div>
+                        <div>
+                            <a href="#">HOME</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Services</a>
+                            <a href="#skills">Skills</a>
+                            <a href="#gallery">Gallery</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="#contact"><button class="btn btn-primary">CONTACT</button></a>
+                    </div>
+                 </nav>
+                 <div class="hero flex items-center justify-between">
+                     <div class="left flex-1 flex justify-center">
+                         <img class="hero-img" src="./images/IMG_20210116_233150_182-removebg-preview (3)[26].png" alt="">
+                     </div>
+                     <div class="right flex-1">
+                         <h6>Pratigya Rajput</h6>
+                         <h1>I'm  a creative <span>Designer</span></h1>
+                         <p>Hey! i'm Pratigya. I build interactive website that run across platforms & devices.</p>
+                         <a href="partigya Rajput.pdf" download>
+                            <button class="btn b-1 btn-secondary">DOWNLOAD CV</button>
+                          </a>
+                     </div>
+                 </div>
+            </div>
+        </header>
+        <section id="about" class="about">
+            <div class="container flex items-center justify-between">
+                <div class="left flex flex-1 justify-center">
+                    <img src="./images/IMG_20210618_1411182.jpg" alt="">
+                </div>
+                <div class="right flex-1">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! i'm Pratigya Rajput</h3>
+                    <p>Welcome to my portfolio! I'm Pratigya.Recently, i worked as a freelancer.i am a front-end developer.
+                    </p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/pratigya.rajput.98" class="fa fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/pratigya-rajput/" class="fa fa-linkedin"></a>
+                        <a href="https://www.instagram.com/prtgya_rajput/" class="fa fa-instagram"></a>
+                        <a href="tel:7456844190" class="fa fa-phone"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="service">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Services</h1>
+                <p> I give high standard clean websites for your business solutions</p>
+                <div class="card-wrapper">
+                    <div class="card chng">
+                        <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                        <h2>Web Design</h2>
+                        <p> hi! we provide web design service.I value simple content structure, clean design patterns and thoughtful interactions</p>
+                    </div>     
+                </div>
+            </div>
+        </section>
+        <section class="freelancer">
+          <h1>I Am Available For Freelancer</h1>
+          <p>We provide high standard clean websites for our users</p> 
+          <a href="partigya Rajput.pdf" download>
+            <button class="btn btn-secondary">DOWNLOAD CV</button>
+          </a>  
+        </section>
+        <section id="skills" class="skills">
+            <div class="container">
+                <h1>My <span>Skills</span></h1>
+                <ul>
+                    <li>
+                        <h5>HTML</h5>90%
+                        <span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <h5>CSS</h5>80%
+                        <span class="bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <h5>Bootstrap</h5>70%
+                        <span class="bar"><span class="bootstrap"></span></span>
+                  </li>
+                    <li>
+                        <h5>Wordpress</h5>70%
+                        <span class="bar"><span class="wordpress"></span></span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="work" id="work">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Work</h1>
+                <p>Here, we share some projects</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="https://pratigyarajput.github.io/E-commerce/">E-commerce</a>
+                        </div>
+                        <img src="images/work2.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="https://pratigyarajput.github.io/zym-website/
+                            ">Gym</a>
+                        </div>
+                        <img src="images/work5.jpg" alt="">
+                    </div>  
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Us</span></h1>
+                <p>We provide a high standard clean website</p>
+               <div class="wraper">
+                   <div class="cardd">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    <h3>Linked-In</h3>
+                    <a href="https://www.Linkedin.com/pratigya-rajput"><h6>linkedin.com/in/pratigya-rajput</h6></a>
+                   </div>
+                   <div class="cardd">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <h3>Email-At-Us</h3>
+                    <a href="mailto:pratigyarajput860@gmail.com"><h6>pratigyarajput860@gmail.com</h6></a>
+                   </div>
+                   <div class="cardd">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <h3>Call On Us</h3>
+                    <a href="tel:7456844190"> <h6>7456844190</h6></a> 
+                   </div>
+               </div>
+               <form>
+                <div class="input-wrap">
+                    <input type="text" placeholder="your name*">
+                    <input type="email" placeholder="your E-mail*">
+                </div>
+                <div class="input-wrap-2">
+                    <input type="text" placeholder="your subject....">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="your message...."></textarea>
+                </div>
+                <div class="btn-wraper">
+                    <button class="btn btn-primary">Send Message</button>
+                </div>
+               </form>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <img class="footer-icon" src="./images/prai logo 2.png" alt="">
+            <div class="social-icon footer-icons">
+                <a href="https://www.facebook.com/pratigya.rajput.98" class="fa fa-facebook"></a>
+                <a href="https://www.linkedin.com/in/pratigya-rajput/" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/prtgya_rajput/" class="fa fa-instagram"></a>
+                <a href="tel:7456844190" class="fa fa-phone"></a>             
+            </div>
+            <div class="footer-line">
+                <p>copyright 2021 @ Pratigya Rajput Template. All Right Reserved</p>  
+            </div>
+        </footer>
+    </div>  
+        <script src="./js/app.js"></script> 
+</body>
+</html>
